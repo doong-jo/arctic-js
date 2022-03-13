@@ -52,8 +52,7 @@ export class Button extends Component {
 
   render() {
     this.createElement(
-      "button",
-      /* html */ `
+      /* html */`
       <button type="button">
         ${this.props.children}
       </button>
@@ -80,7 +79,8 @@ export class MainPage extends Component {
   }
 
   render() {
-    return /* html */ `
+    this.createElement(
+      /* html */`
       <div>
         <p>
           I'm Main page.
@@ -92,7 +92,8 @@ export class MainPage extends Component {
           new Button({ children: "Click Me", onClick: this.increaseCount })
         )}
       </div>
-    `;
+      `
+    );
   }
 }
 ```
