@@ -6,7 +6,7 @@ Does the side project or SEO to create a small website that is not important? If
 
 ## Concept & Meaning of Arctic Words
 
-- The browser is faster and faster, fast enough without special rendering techniques.
+- The current browser is fast enough in most environments without having a specific framework. In addition, the future will be faster.
 - Rendering is not involved and only the component abstraction is written.
 - As you can find the purity of calmness and glaciers in the Arctic, I wanted to make it possible to develop web close to a pure browser without a special skill in Arctic-JS.
 
